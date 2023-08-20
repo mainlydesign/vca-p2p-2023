@@ -1,0 +1,231 @@
+/*
+ * Custom Color Palette
+ * https://themezee.com/plugins/custom-color-palette/
+ *
+ * Copyright(C) 2018, ThemeZee.com - support@themezee.com
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * @package Custom Color Palette
+ */
+
+/*--------------------------------------------------------------
+# Color Variables
+---------------------------------------------------------------- */
+:root {
+	--ccp-primary-dark-color: #b7400d;
+	--ccp-primary-color: #dd6633;
+	--ccp-primary-light-color: #ff8c59;
+	--ccp-secondary-dark-color: #730db7;
+	--ccp-secondary-color: #9933dd;
+	--ccp-secondary-light-color: #bf59ff;
+	--ccp-accent-color: #33bbdd;
+	--ccp-white-color: #ffffff;
+	--ccp-light-gray-color: #eeeeee;
+	--ccp-dark-gray-color: #666666;
+	--ccp-black-color: #151515;
+	--ccp-red-color: #dd3333;
+	--ccp-green-color: #81d742;
+	--ccp-blue-color: #1e73be;
+	--ccp-yellow-color: #eeee22;
+	--ccp-orange-color: #dd9933;
+	--ccp-purple-color: #8224e3;
+	--ccp-brown-color: #825b00;
+	--ccp-pink-color: #e500e5;
+}
+
+/*--------------------------------------------------------------
+# Text Colors
+---------------------------------------------------------------- */
+.has-ccp-primary-dark-color {
+	color: #b7400d;
+	color: var(--ccp-primary-dark-color);
+}
+
+.has-ccp-primary-color {
+	color: #dd6633;
+	color: var(--ccp-primary-color);
+}
+
+.has-ccp-primary-light-color {
+	color: #ff8c59;
+	color: var(--ccp-primary-light-color);
+}
+
+.has-ccp-secondary-dark-color {
+	color: #730db7;
+	color: var(--ccp-secondary-dark-color);
+}
+
+.has-ccp-secondary-color {
+	color: #9933dd;
+	color: var(--ccp-secondary-color);
+}
+
+.has-ccp-secondary-light-color {
+	color: #bf59ff;
+	color: var(--ccp-secondary-light-color);
+}
+
+.has-ccp-accent-color {
+	color: #33bbdd;
+	color: var(--ccp-accent-color);
+}
+
+.has-ccp-white-color {
+	color: #ffffff;
+	color: var(--ccp-white-color);
+}
+
+.has-ccp-light-gray-color {
+	color: #eeeeee;
+	color: var(--ccp-light-gray-color);
+}
+
+.has-ccp-dark-gray-color {
+	color: #666666;
+	color: var(--ccp-dark-gray-color);
+}
+
+.has-ccp-black-color {
+	color: #151515;
+	color: var(--ccp-black-color);
+}
+
+.has-ccp-red-color {
+	color: #dd3333;
+	color: var(--ccp-red-color);
+}
+
+.has-ccp-green-color {
+	color: #1e73be;
+	color: var(--ccp-green-color);
+}
+
+.has-ccp-blue-color {
+	color: #dd3333;
+	color: var(--ccp-blue-color);
+}
+
+.has-ccp-yellow-color {
+	color: #eeee22;
+	color: var(--ccp-yellow-color);
+}
+
+.has-ccp-orange-color {
+	color: #dd9933;
+	color: var(--ccp-orange-color);
+}
+
+.has-ccp-purple-color {
+	color: #8224e3;
+	color: var(--ccp-purple-color);
+}
+
+.has-ccp-brown-color {
+	color: #825b00;
+	color: var(--ccp-brown-color);
+}
+
+.has-ccp-pink-color {
+	color: #e500e5;
+	color: var(--ccp-pink-color);
+}
+
+/*--------------------------------------------------------------
+# Background Colors
+---------------------------------------------------------------- */
+.has-ccp-primary-dark-background-color {
+	background-color: #b7400d;
+	background-color: var(--ccp-primary-dark-color);
+}
+
+.has-ccp-primary-background-color {
+	background-color: #dd6633;
+	background-color: var(--ccp-primary-color);
+}
+
+.has-ccp-primary-light-background-color {
+	background-color: #ff8c59;
+	background-color: var(--ccp-primary-light-color);
+}
+
+.has-ccp-secondary-dark-background-color {
+	background-color: #730db7;
+	background-color: var(--ccp-secondary-dark-color);
+}
+
+.has-ccp-secondary-background-color {
+	background-color: #9933dd;
+	background-color: var(--ccp-secondary-color);
+}
+
+.has-ccp-secondary-light-background-color {
+	background-color: #bf59ff;
+	background-color: var(--ccp-secondary-light-color);
+}
+
+.has-ccp-accent-background-color {
+	background-color: #33bbdd;
+	background-color: var(--ccp-accent-color);
+}
+
+.has-ccp-white-background-color {
+	background-color: #ffffff;
+	background-color: var(--ccp-white-color);
+}
+
+.has-ccp-light-gray-background-color {
+	background-color: #eeeeee;
+	background-color: var(--ccp-light-gray-color);
+}
+
+.has-ccp-dark-gray-background-color {
+	background-color: #666666;
+	background-color: var(--ccp-dark-gray-color);
+}
+
+.has-ccp-black-background-color {
+	background-color: #151515;
+	background-color: var(--ccp-black-color);
+}
+
+.has-ccp-red-background-color {
+	background-color: #dd3333;
+	background-color: var(--ccp-red-color);
+}
+
+.has-ccp-green-background-color {
+	background-color: #1e73be;
+	background-color: var(--ccp-green-color);
+}
+
+.has-ccp-blue-background-color {
+	background-color: #dd3333;
+	background-color: var(--ccp-blue-color);
+}
+
+.has-ccp-yellow-background-color {
+	background-color: #eeee22;
+	background-color: var(--ccp-yellow-color);
+}
+
+.has-ccp-orange-background-color {
+	background-color: #dd9933;
+	background-color: var(--ccp-orange-color);
+}
+
+.has-ccp-purple-background-color {
+	background-color: #8224e3;
+	background-color: var(--ccp-purple-color);
+}
+
+.has-ccp-brown-background-color {
+	background-color: #825b00;
+	background-color: var(--ccp-brown-color);
+}
+
+.has-ccp-pink-background-color {
+	background-color: #e500e5;
+	background-color: var(--ccp-pink-color);
+}
