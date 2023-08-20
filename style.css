@@ -5222,9 +5222,9 @@ header:hover #headerSvg {
 }
 .footer .herrlich {
   display: block;
-  width: 15px;
-  height: 15px;
-  margin-top: 5px;
+  width: 25px;
+  height: 25px;
+  margin-top: 2.5px;
 }
 .footer .herrlich svg {
   display: block;
