@@ -4605,9 +4605,9 @@ a.text-dark:hover {
 }
 @font-face {
   font-family: veneer;
-  src: url(/wp-content/themes/vca/assets/fonts/veneer.woff);
-  src: url(/wp-content/themes/vca/assets/fonts/veneer.woff) format("woff");
-  src: url(/wp-content/themes/vca/assets/fonts/veneer.woff2) format("woff2");
+  src: url(https://github.com/mainlydesign/vca-p2p-2023/blob/main/fonts/veneer.woff);
+  src: url(https://github.com/mainlydesign/vca-p2p-2023/blob/main/fonts/veneer.woff) format("woff");
+  src: url(https://github.com/mainlydesign/vca-p2p-2023/blob/main/fonts/veneer.woff) format("woff2");
   font-weight: 600;
   font-style: normal;
 }
